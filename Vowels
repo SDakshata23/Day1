@@ -1,0 +1,26 @@
+package task;
+
+import java.util.Scanner;
+
+public class Vowel {
+	public static void main(String args[])
+	{
+		Scanner in=new Scanner(System.in);
+		String str;
+		System.out.println("Enter a sentence:");
+		str=in.nextLine();
+		char[] a=str.toCharArray();
+		char x[]={'a','e','i','o','u','A','E','I','O','U'};
+		int count=0;
+		for(int i=0;i<str.length();i++)
+			{
+			for(int j=0;j<x.length;j++) {
+			if(a[i]==x[j])
+				{
+				count++;
+				}
+			}}
+		System.out.println(count);
+			}
+
+}
