@@ -1,0 +1,16 @@
+package com.demo;
+
+public class Myclass {
+	public static void main(String args[]){
+	 	   int n=1264;
+	 	   int sd=0,sum=0;
+	 	   while(n>0)
+	 	   {
+	 		   sd=n%10;
+	 		   n/=10;
+	 		   sum=sum+sd;
+	 		   System.out.println(sd);
+	 	   }
+	 	   System.out.println("sum of digit :"+sum);
+	}
+}
